@@ -5,8 +5,8 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score
 
 # Load fake and real news datasets
-fake_df = pd.read_csv("Fake.csv")
-true_df = pd.read_csv("True.csv")
+pd.read_csv("dataset/Fake.csv")
+pd.read_csv("dataset/True.csv")
 
 # Add labels
 fake_df["label"] = 0   # Fake news

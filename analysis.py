@@ -8,8 +8,8 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, confusion_matrix, roc_curve, roc_auc_score
 
 # ================= LOAD DATA =================
-fake_df = pd.read_csv("Fake.csv")
-true_df = pd.read_csv("True.csv")
+pd.read_csv("dataset/Fake.csv")
+pd.read_csv("dataset/True.csv")
 
 fake_df["label"] = 0
 true_df["label"] = 1
